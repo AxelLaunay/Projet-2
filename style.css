@@ -44,7 +44,7 @@ body
 						border-radius: 100%;
 					}
 
-					#photo-profil
+					#photoProfil
 						{
 							height: 100%;
 					 		width: 100%;
@@ -66,7 +66,7 @@ body
 							text-align: center;
 						}
 
-						.DD
+						.descriptionContct
 						{
 							margin-left: 5%;
 							margin-top: 20%;
@@ -107,7 +107,7 @@ body
 
 				
 
-						#moi2
+						#moiDescription
 							{
 								margin-left: 5%;
 								font-size: 1.5em;
@@ -185,7 +185,7 @@ body
 							padding-bottom: 0;
 						}
 
-				#maformation
+				#maFormation
 					{
 						font-size: 2.5em;
 						margin-top: 0;
@@ -230,7 +230,7 @@ body
  								margin-top: 1.5%;
 							}
 
-						#Tformation
+						#titleFormation
 							{
 								font-size: 2.5em;
 								margin-bottom: 0;
@@ -273,7 +273,7 @@ body
 									margin-right: 8%;
 								}
 
-								#D0
+								#date_0
 								{font-size: 0.8em;}
 
 							.description_container_0
@@ -283,17 +283,17 @@ body
 									width: 50%;
 								}
 
-								#D0titre
+								#descriptionTitle
 									{
 										font-size: 1.5em;
 									}
 
-								#D0D
+								#name_0
 									{
 										font-size: 1.0em;
 									}
 
-								#D0description
+								#nameDescription_0
 									{
 
 									}
@@ -322,7 +322,7 @@ body
 									margin-right: 8%;
 								}
 
-								#D1
+								#date_1
 								{font-size: 0.8em;}
 
 							.description_container_1
@@ -332,16 +332,16 @@ body
 									width: 50%;
 								}
 
-								#D1Titre
+								#descriptionTitle_1
 									{
 										font-size: 1.2em;
 									}
 
-								#D1D
+								#name_1
 									{
 
 									}
-								#D1description
+								#nameDescription_1
 									{
 
 									}
@@ -371,7 +371,7 @@ body
 									margin-right: 8%;
 									}
 
-								#D2
+								#date_2
 									{font-size: 0.8em;}
 
 							.description_container_2
@@ -381,17 +381,17 @@ body
 									width: 50%;
 								}
 
-								#D2Titre
+								#descriptionTitle
 									{
 										font-size: 1.2em;
 									}
 
-								#D2D
+								#name_2
 									{
 
 									}
 
-								#D2description
+								#nameDescription_2
 									{
 
 									}
@@ -412,7 +412,7 @@ body
 							margin-top: 10%;
 						}
 
-					#TXP_Pro
+					#titleXpPro
 						{
 							font-size: 2.5em;
 							margin-left: 50px;
