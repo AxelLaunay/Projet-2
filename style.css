@@ -27,6 +27,11 @@ body
 					margin-top: 0;
 				}
 
+				.fontMenu
+				{
+					display: none;
+				}
+
 				#profil
 					{
 						display: flex;
@@ -59,7 +64,6 @@ body
 							color: #feca07;
 							font-size: 1.8em;
 							text-align: center;
-							padding-top: 16px;
 						}
 
 						.DD
@@ -108,6 +112,7 @@ body
 								margin-left: 5%;
 								font-size: 1.5em;
 								margin-top: 20%;
+								margin-bottom: 270%;
 							}
 
 				#Loisir
@@ -121,23 +126,54 @@ body
 								font-size: 2.0em;
 							}
 
+		.fontLoisir
+		{
+			display: flex;
+			justify-content: center;
+		}
+
+		.fontControler
+		{
+			    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+		}
+
+		.fontArt
+		{
+			    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+		}
+
+		.fontCode
+		{
+			    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+		}
+
 		#corp_page
 			{
 				margin-left: 60px;
 				height: 100%;
-				width: 63%
+				width: 100%;
 			}
 
 			.contenaire_title
 				{
 					display: flex;
 					flex-direction: column;
-					height: 10%
+					height: 10%;
+					/* width: 100%; */
 				}
 
 				#title
 					{
-						font-size: 5.0em;
+						font-size: 4.5em;
 						margin-bottom: 0;
 					}
 					.name
@@ -191,11 +227,12 @@ body
 							{
  								height: 40px;
  								color: #feca07;
+ 								margin-top: 1.5%;
 							}
 
 						#Tformation
 							{
-								font-size: 1.8em;
+								font-size: 2.5em;
 								margin-bottom: 0;
 								margin-top: 0;
 								margin-left: 50px;
@@ -204,7 +241,7 @@ body
 						div.bordure
 							{
 								border-top: 2px solid #feca07;
-								width: 695px;
+								width: 90%;
 							}
 
 					.disposition_formation
@@ -237,9 +274,7 @@ body
 								}
 
 								#D0
-								{
-
-								}
+								{font-size: 0.8em;}
 
 							.description_container_0
 								{
@@ -288,9 +323,7 @@ body
 								}
 
 								#D1
-								{
-
-								}
+								{font-size: 0.8em;}
 
 							.description_container_1
 								{
@@ -301,7 +334,7 @@ body
 
 								#D1Titre
 									{
-										font-size: 1.5em;
+										font-size: 1.2em;
 									}
 
 								#D1D
@@ -339,9 +372,7 @@ body
 									}
 
 								#D2
-									{
-
-									}
+									{font-size: 0.8em;}
 
 							.description_container_2
 								{
@@ -352,7 +383,7 @@ body
 
 								#D2Titre
 									{
-										font-size: 1.5em;
+										font-size: 1.2em;
 									}
 
 								#D2D
@@ -383,7 +414,7 @@ body
 
 					#TXP_Pro
 						{
-							font-size: 1.8em;
+							font-size: 2.5em;
 							margin-left: 50px;
 							margin-top: 0;
 							margin-bottom: 0;
@@ -392,7 +423,7 @@ body
 						div.bordure
 							{
 								border-top: 2px solid #feca07;
-								width: 695px;
+								width: 90%;
 							}
 
 							
@@ -424,10 +455,11 @@ body
 											{
 												display: flex;
 												margin-top: 2%;
+												width: 50%;
 											}
 								.description_container_3
 									{
-										width: 50%;
+										width: 70%;
 									}
 
 										#D3titre
@@ -440,7 +472,7 @@ body
 											{
 												display: flex;
 												flex-direction: column;
-												
+												/* margin-right: -19%; */
 											}
 
 								.disposition_container_4
@@ -470,11 +502,12 @@ body
 										{
 											display: flex;
 											margin-top: 2%;
+											width: 50%;
 										}
 
 										.description_container_4
 											{
-												width: 50%;
+												width: 70%;
 											}
 
 									#D4titre
@@ -487,6 +520,7 @@ body
 										{
 											display: flex;
 											flex-direction: column;
+											margin-right: 0;
 										}
 
 								.disposition_container_5
@@ -513,7 +547,8 @@ body
 
 								.description_container_E
 									{
-										width: 50%;
+										width: 90%;
+										margin-left: 25%;
 									}
 
 								.disposition_container_6
@@ -540,16 +575,29 @@ body
 										}
 									.description_container_6
 										{
-											width: 50%;
+											width: 70%;
 										}
 			footer
 				{
 					height: 10%;
 				}
 
+				.titleFooter
+				{
+					display: flex;
+				}
+
+				#II
+				{
+					font-size: 2.5em;
+   						margin-left: 50px;
+   						margin-top: 0;
+    					margin-bottom: 0;
+				}
+
 				#IIn
 					{
-
+						
 					}
 
 
@@ -564,7 +612,33 @@ body
 	{
 		display: flex;
 		flex-direction: row;
+		justify-content: center;
 	}
+
+	.fontMenu
+	{
+		display: block;
+	}
+
+	.fa-bars
+	{
+		cursor: pointer;
+		position: absolute;
+    	left: 10px;
+    	top: 10px;
+   		font-size: 1.5em;
+	}
+
+	.menu-amberger
+	{
+		display: none;
+	}
+
+	.nav-vertical:hover .menu-amberger
+	{
+		display: flex;
+	}
+
 
 	#corp_page
 	{
@@ -579,17 +653,19 @@ body
 	#profil
 	{
 			display: flex;
-		    width: 25%;
-		    margin-top: 0;
-		    margin-bottom: 0;
-		    margin-left: 0%;
-		    border: solid 0px;
+			width: 50%;
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: 0%;
+			border: solid 0px;
+			justify-content: center;
 	}
 
 	#photo-profil
 	{
-		height: 200px;
-		width: 200px;
+		height: 100px;
+		width: 100px;
+		/* justify-content: center; */
 	}
 
 	#contact
@@ -660,6 +736,7 @@ body
 	{
 		width: 60%;
 		display: none;
+		margin-bottom: 10%;
 	}
 
 	#TLoisir {
@@ -679,6 +756,36 @@ body
 		display: none;
 	}
 
+	.fontLoisir
+	{
+		display:flex;
+		justify-content: center;
+	}
+
+	.fontControler
+	{
+		width: 10%;
+		font-size: 2.5em;    
+		margin-left: 5%;
+		margin-right: 5%;
+	}  
+
+	.fontArt
+	{
+		    width: 10%;
+    		font-size: 2.5em;
+   			margin-left: 5%;
+   			margin-right: 5%;
+	}
+
+	.fontCode
+	{
+		width: 10%;
+   		font-size: 2.5em;
+    	margin-left: 5%;
+   		margin-right: 5%;
+	}
+
 	#moi:hover p {
 	    display:block;
 	}
@@ -695,17 +802,17 @@ body
 
 	#D0titre
 	{
-		font-size: 2.5em;
+		font-size: 1.2em;
 	}
 
 	#D0D
 	{
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
 
 	#D0description
 	{
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 
 		#D1titre
@@ -720,7 +827,7 @@ body
 
 	#D1description
 	{
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 	#D2titre
 	{
@@ -734,37 +841,39 @@ body
 
 	#D2description
 	{
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 
 	#D3titre
 	{
-		font-size: 2.5em;
+		font-size: 1.2em;
 	}
 
 	.description_container_3
 	{
-		width: 42%;
+		width: 75%;
 	}
 
 	#D3description
 	{
-		font-size: 1.2em;
+		font-size: 1.0em;
+		width: 90%;
 	}
 
 	#D4titre
 	{
-		font-size: 2.5em;
+		font-size: 1.2em;
 	}
 
 	.description_container_4
 	{
-		width: 42%;
+		width: 75%;
 	}
 
 	#D4description
 	{
-		font-size: 1.2em;
+		font-size: 1.0em;
+		width: 90%;
 	}
 
 	#D5titre
@@ -774,7 +883,7 @@ body
 
 	.description_container_E
 	{
-		width: 42%;
+		width: 85%;
 	}
 
 	#D5description
@@ -786,7 +895,7 @@ body
 
 	.description_container_6
 	{
-		width: 42%;
+		width: 75%;
 	}
 
 	#D6description
@@ -796,15 +905,43 @@ body
 
 	#title
 	{
-		margin-left: 20px;
+		margin-left: 0px;
+		width: 100%;
+		font-size: 2.5em;
 	}
 
 	#maformation
 	{
-		margin-left: 20px;
+		margin-left: 0px;
+		font-size: 1.5em;
 	}
 	hr
 	{
 		margin-left: 20px;
+	}
+
+	#Tformation
+	{
+		font-size: 1.5em;
+	}
+
+	#TXP_Pro
+	{
+		font-size: 1.5em;
+	}
+
+	#II
+	{
+		font-size: 1.5em;
+	}
+	#contenaie_XP_Pro
+	{
+		width: 100%;
+	}
+
+	.date_container_5
+	{
+		display: flex;
+		width: 50%;
 	}
 }					
