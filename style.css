@@ -1,947 +1,815 @@
 
-body
-	{
-		font-family:segoe print;
-		margin: 0;
-		padding: 0;
-	}
-
-	.main
-		{
-			display: flex;
-			width: 100%;
-		}
-		.nav
-			{
-				display: flex;
-				justify-content: center; 
-
-				width: 37%;
-			}
-
-			.nav_vertical
-				{
-					background-color: #feca07;
-					height: 100%;
-					width: 100%; /* a modifier */
-					margin-top: 0;
-				}
-
-				.fontMenu
-				{
-					display: none;
-				}
-
-				#profil
-					{
-						display: flex;
-						width: 50%;
-						margin-top: 20%;
-						margin-bottom: 20%;
-						margin-left: 20%;
-						border:solid 4px;
-						border-color:#daaf12;
-						border-radius: 100%;
-					}
-
-					#photoProfil
-						{
-							height: 100%;
-					 		width: 100%;
-					 		border-radius: 100%;
-						}
-
-				#contact
-					{
-
-					}
-
-					.titleNav
-						{
-							background-color: black;
-							width: 100%;
-							height: 45px;
-							color: #feca07;
-							font-size: 1.8em;
-							text-align: center;
-						}
-
-						.descriptionContct
-						{
-							margin-left: 5%;
-							margin-top: 20%;
-						}
-					#adresse
-						{
-							font-size: 1.5em;
-						}
-
-					#Téléphone
-						{
-							font-size: 1.5em;
-
-						}
-
-					#Email
-						{
-							font-size: 1.5em;
-
-						}
-
-					#PorteFolio
-						{
-							font-size: 1.5em;
-
-						}
-
-					#Discord
-						{
-							font-size: 1.5em;
-
-						}
-
-				#moi
-					{
-
-					}
-
-				
-
-						#moiDescription
-							{
-								margin-left: 5%;
-								font-size: 1.5em;
-								margin-top: 20%;
-								margin-bottom: 270%;
-							}
-
-				#Loisir
-					{
-						  
-					}
-
-			
-							.pLoisir
-							{
-								font-size: 2.0em;
-							}
-
-		.fontLoisir
-		{
-			display: flex;
-			justify-content: center;
-		}
-
-		.fontControler
-		{
-			    width: 10%;
-    font-size: 2.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-		}
-
-		.fontArt
-		{
-			    width: 10%;
-    font-size: 2.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-		}
-
-		.fontCode
-		{
-			    width: 10%;
-    font-size: 2.5em;
-    margin-left: 5%;
-    margin-right: 5%;
-		}
-
-		#corp_page
-			{
-				margin-left: 60px;
-				height: 100%;
-				width: 100%;
-			}
-
-			.contenaire_title
-				{
-					display: flex;
-					flex-direction: column;
-					height: 10%;
-					/* width: 100%; */
-				}
-
-				#title
-					{
-						font-size: 4.5em;
-						margin-bottom: 0;
-					}
-					.name
-						{
-							text-transform: capitalize;
-							font-weight: bold;
-							color: #feca07;
-							margin-bottom: 0px;
-							padding-bottom: 0;
-						}
-
-				#maFormation
-					{
-						font-size: 2.5em;
-						margin-top: 0;
-						margin-bottom: 0;
-					}
-
-					hr
-					{
-						border-top: solid;
-						height: 0;
-						color: #feca07;
-						width: 15%;
-						margin: 0;
-						margin-bottom: 15%;
-					}
-
-			#Formation
-				{
-					height: 40%;
-					width: 100%;
-				}	
-
-				.principal_formation_container
-					{
-						height: 100%;
-						width: 100%;
-
-					}
-
-					#contenaire_formation
-						{
-							display: flex;
-							height: 15%;
-							width: 100%;
-							
-						}
-
-						.PF
-							{
- 								height: 40px;
- 								color: #feca07;
- 								margin-top: 1.5%;
-							}
-
-						#titleFormation
-							{
-								font-size: 2.5em;
-								margin-bottom: 0;
-								margin-top: 0;
-								margin-left: 50px;
-							}
-
-						div.bordure
-							{
-								border-top: 2px solid #feca07;
-								width: 90%;
-							}
-
-					.disposition_formation
-						{
-						
-						}
-						
-						.disposition_container_0
-							{
-								display: flex;
-								flex-direction: row;
-								justify-content: space-between;
-								margin-top: 2%;
-							}
-
-							.date_container_0
-								{
-									display: flex;
-									margin-top: 2%;
-									width: 50%;
-								}	
-								.img_point
-								{
-									color: #feca07;
-									display: flex;
-									width: 15px;
-									height:15px;
-									margin-top: 8%;
-									margin-right: 8%;
-								}
-
-								#date_0
-								{font-size: 0.8em;}
-
-							.description_container_0
-								{
-									display: flex;
-									flex-direction: column;
-									width: 50%;
-								}
-
-								#descriptionTitle
-									{
-										font-size: 1.5em;
-									}
-
-								#name_0
-									{
-										font-size: 1.0em;
-									}
-
-								#nameDescription_0
-									{
-
-									}
-						.disposition_container_1
-							{
-								display: flex;
-								flex-direction: row;
-								justify-content: space-between;
-								margin-top: 10%;
-							}
-
-							.date_container_1
-								{
-									display: flex;
-									margin-top: 2%;
-									width: 50%;
-								}
-
-								.img_point_1
-								{
-									color: #feca07;
-									display: flex;
-									width: 10px;
-									height:10px;
-									margin-top: 8%;
-									margin-right: 8%;
-								}
-
-								#date_1
-								{font-size: 0.8em;}
-
-							.description_container_1
-								{
-									display: flex;
-									flex-direction: column;
-									width: 50%;
-								}
-
-								#descriptionTitle_1
-									{
-										font-size: 1.2em;
-									}
-
-								#name_1
-									{
-
-									}
-								#nameDescription_1
-									{
-
-									}
-
-						.date_container_teste
-							{
-								display: flex;
-								margin-top: 2%;
-								width: 50%;
-							}
-
-						.disposition_container_2
-							{
-								display: flex;
-								flex-direction: row;
-								justify-content: space-between;
-								margin-top: 10%;
-							}
-
-								.img_point_2
-									{
-									color: #feca07;
-									display: flex;
-									width: 10px;
-									height:10px;
-									margin-top: 8%;
-									margin-right: 8%;
-									}
-
-								#date_2
-									{font-size: 0.8em;}
-
-							.description_container_2
-								{
-									display: flex;
-									flex-direction: column;
-									width: 50%;
-								}
-
-								#descriptionTitle
-									{
-										font-size: 1.2em;
-									}
-
-								#name_2
-									{
-
-									}
-
-								#nameDescription_2
-									{
-
-									}
-
-			#XP_Pro
-				{
-					height: 40%;
-				}
-
-				#contenaire_XP_Pro
-					{
-
-					}
-
-					.contenaire_XP_Pro_title
-						{
-							display: flex;
-							margin-top: 10%;
-						}
-
-					#titleXpPro
-						{
-							font-size: 2.5em;
-							margin-left: 50px;
-							margin-top: 0;
-							margin-bottom: 0;
-						}
-
-						div.bordure
-							{
-								border-top: 2px solid #feca07;
-								width: 90%;
-							}
-
-							
-
-								.disposition_container_3
-									{
-										display: flex;
-										flex-direction: row;
-										justify-content: space-between;
-										margin-top: 5%;
-									}
-
-							.img_point_3
-								{
-									display: flex;
-									width: 15px;
-									height:15px;
-									margin-top: 2%;
-									margin-right: 4%;
-								}
-
-								.date_container_3
-									{
-										width: 50%;
-										display: flex;
-									}
-
-										#D3
-											{
-												display: flex;
-												margin-top: 2%;
-												width: 50%;
-											}
-								.description_container_3
-									{
-										width: 70%;
-									}
-
-										#D3titre
-											{
-												font-size: 1.5em;
-												margin-top: 0;
-											}
-
-										#D3description
-											{
-												display: flex;
-												flex-direction: column;
-												/* margin-right: -19%; */
-											}
-
-								.disposition_container_4
-									{
-										display: flex;
-										flex-direction: row;
-										justify-content: space-between;
-										margin-top: 10%;
-									}
-
-									.img_point_4
-										{
-											display: flex;
-											width: 10px;
-											height:10px;
-											margin-top: 2%;
-											margin-right: 4%;
-										}
-
-										.date_container_4
-										{
-											width: 50%;
-											display: flex;
-										}
-
-									#D4
-										{
-											display: flex;
-											margin-top: 2%;
-											width: 50%;
-										}
-
-										.description_container_4
-											{
-												width: 70%;
-											}
-
-									#D4titre
-										{
-											font-size: 1.5em;
-											margin-top: 0;
-										}
-
-									#D4description
-										{
-											display: flex;
-											flex-direction: column;
-											margin-right: 0;
-										}
-
-								.disposition_container_5
-									{
-										display: flex;
-										flex-direction: row;
-										justify-content: space-between;
-										margin-top: 10%;
-									}
-
-									.img_point_5
-										{
-											display: flex;
-											width: 10px;
-											height:10px;
-											margin-top: 2%;
-											margin-right: 4%;
-										}
-								.date_conatiner_5
-									{
-										display: flex;
-										width: 50%;
-									}
-
-								.description_container_E
-									{
-										width: 90%;
-										margin-left: 25%;
-									}
-
-								.disposition_container_6
-									{
-										display: flex;
-										flex-direction: row;
-										justify-content: space-between;
-										margin-top: 10%;
-									}
-
-									.img_point_6
-										{
-											display: flex;
-											width: 10px;
-											height:10px;
-											margin-top: 2%;
-											margin-right: 4%;
-										}
-
-									.date_container_6
-										{
-											width: 50%;
-											display: flex;
-										}
-									.description_container_6
-										{
-											width: 70%;
-										}
-			footer
-				{
-					height: 10%;
-				}
-
-				.titleFooter
-				{
-					display: flex;
-				}
-
-				#II
-				{
-					font-size: 2.5em;
-   						margin-left: 50px;
-   						margin-top: 0;
-    					margin-bottom: 0;
-				}
-
-				#IIn
-					{
-						
-					}
-
-
-@media all and (max-width: 1024px)
-{
-	.main 
-	{
-		flex-direction: column;
-	}
-
-	.nav_vertical
-	{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-	}
-
-	.fontMenu
-	{
-		display: block;
-	}
-
-	.fa-bars
-	{
-		cursor: pointer;
-		position: absolute;
-    	left: 10px;
-    	top: 10px;
-   		font-size: 1.5em;
-	}
-
-	.menu-amberger
-	{
-		display: none;
-	}
-
-	.nav-vertical:hover .menu-amberger
-	{
-		display: flex;
-	}
-
-
-	#corp_page
-	{
-		margin-left: 0;
-	}
-
-	.nav
-	{
-		width: 100%;
-	}
-
-	#profil
-	{
-			display: flex;
-			width: 50%;
-			margin-top: 0;
-			margin-bottom: 0;
-			margin-left: 0%;
-			border: solid 0px;
-			justify-content: center;
-	}
-
-	#photo-profil
-	{
-		height: 100px;
-		width: 100px;
-		/* justify-content: center; */
-	}
-
-	#contact
-	{
-		width: 100%;
-	}
-
-	#TContact
-	{
-	background-color: black;
+body {
+    font-family: segoe print;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
     width: 100%;
-    height: 45px;
-    color: #feca07;
-    font-size: 1.8em;
-    text-align: center;
-    padding-top: 16px;
-    margin-top: 70px;
-	}	
+}
 
-					#adresse
-						{
-							display: none;
-						}
+.nav {
+    display: flex;
+    justify-content: center;
 
-					#Téléphone
-						{
-							display: none;
-						}
+    width: 37%;
+}
 
-					#Email
-						{
-							display: none;
-						}
+.nav_vertical {
+    background-color: #feca07;
+    height: 100%;
+    width: 100%; /* a modifier */
+    margin-top: 0;
+}
 
-					#PorteFolio
-						{
-							display: none;
-						}
+.fontMenu {
+    display: none;
+}
 
-					#Discord
-						{
-							display: none;
-						}
+#profil {
+    display: flex;
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 20%;
+    border: solid 4px;
+    border-color: #daaf12;
+    border-radius: 100%;
+}
 
+#photoProfil {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
 
-	#moi
-	{
-		width: 100%;
-	}
+#contact {
 
-	#Loisir
-	{
-		width: 100%;
-	}
+}
 
-	#Tmoi
-	{
-    background-color: black;
-    height: 45px;
-    margin-top: 70px;
-    color: #feca07;
-    font-size: 1.8em;
-    text-align: center;
-    padding-top: 16px;
-	}
-
-	#moi2
-	{
-		width: 60%;
-		display: none;
-		margin-bottom: 10%;
-	}
-
-	#TLoisir {
+.titleNav {
     background-color: black;
     width: 100%;
     height: 45px;
-    margin-top: 70px;
     color: #feca07;
     font-size: 1.8em;
     text-align: center;
-    padding-top: 16px;
-	}
+}
 
-	.pLoisir
-	{
-		font-size: 2em;
-		display: none;
-	}
+.descriptionContct {
+    margin-left: 5%;
+    margin-top: 20%;
+}
 
-	.fontLoisir
-	{
-		display:flex;
-		justify-content: center;
-	}
+#adresse {
+    font-size: 1.5em;
+}
 
-	.fontControler
-	{
-		width: 10%;
-		font-size: 2.5em;    
-		margin-left: 5%;
-		margin-right: 5%;
-	}  
+#Téléphone {
+    font-size: 1.5em;
 
-	.fontArt
-	{
-		    width: 10%;
-    		font-size: 2.5em;
-   			margin-left: 5%;
-   			margin-right: 5%;
-	}
+}
 
-	.fontCode
-	{
-		width: 10%;
-   		font-size: 2.5em;
-    	margin-left: 5%;
-   		margin-right: 5%;
-	}
+#Email {
+    font-size: 1.5em;
 
-	#moi:hover p {
-	    display:block;
-	}
+}
 
-	#contact:hover p
-	{
-		display: block;
-	}
+#PorteFolio {
+    font-size: 1.5em;
 
-	#Loisir:hover p
-	{
-		display: block;
-	}
+}
 
-	#D0titre
-	{
-		font-size: 1.2em;
-	}
+#Discord {
+    font-size: 1.5em;
 
-	#D0D
-	{
-		font-size: 1.2em;
-	}
+}
 
-	#D0description
-	{
-		font-size: 1.0em;
-	}
+#moi {
 
-		#D1titre
-	{
-		font-size: 2.5em;
-	}
-
-	#D1D
-	{
-		font-size: 1.5em;
-	}
-
-	#D1description
-	{
-		font-size: 1.0em;
-	}
-	#D2titre
-	{
-		font-size: 2.5em;
-	}
-
-	#D2D
-	{
-		font-size: 1.5em;
-	}
-
-	#D2description
-	{
-		font-size: 1.0em;
-	}
-
-	#D3titre
-	{
-		font-size: 1.2em;
-	}
-
-	.description_container_3
-	{
-		width: 75%;
-	}
-
-	#D3description
-	{
-		font-size: 1.0em;
-		width: 90%;
-	}
-
-	#D4titre
-	{
-		font-size: 1.2em;
-	}
-
-	.description_container_4
-	{
-		width: 75%;
-	}
-
-	#D4description
-	{
-		font-size: 1.0em;
-		width: 90%;
-	}
-
-	#D5titre
-	{
-		font-size: 2.5em;
-	}
-
-	.description_container_E
-	{
-		width: 85%;
-	}
-
-	#D5description
-	{
-		font-size: 1.2em;
-	}
+}
 
 
+#moiDescription {
+    margin-left: 5%;
+    font-size: 1.5em;
+    margin-top: 20%;
+    margin-bottom: 270%;
+}
 
-	.description_container_6
-	{
-		width: 75%;
-	}
+#Loisir {
 
-	#D6description
-	{
-		font-size: 1.2em;
-	}
+}
 
-	#title
-	{
-		margin-left: 0px;
-		width: 100%;
-		font-size: 2.5em;
-	}
 
-	#maformation
-	{
-		margin-left: 0px;
-		font-size: 1.5em;
-	}
-	hr
-	{
-		margin-left: 20px;
-	}
+.pLoisir {
+    font-size: 2.0em;
+}
 
-	#Tformation
-	{
-		font-size: 1.5em;
-	}
+.fontLoisir {
+    display: flex;
+    justify-content: center;
+}
 
-	#TXP_Pro
-	{
-		font-size: 1.5em;
-	}
+.fontControler {
+    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-	#II
-	{
-		font-size: 1.5em;
-	}
-	#contenaie_XP_Pro
-	{
-		width: 100%;
-	}
+.fontArt {
+    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
-	.date_container_5
-	{
-		display: flex;
-		width: 50%;
-	}
+.fontCode {
+    width: 10%;
+    font-size: 2.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#corp_page {
+    margin-left: 60px;
+    height: 100%;
+    width: 100%;
+}
+
+.contenaire_title {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    /* width: 100%; */
+}
+
+#title {
+    font-size: 4.5em;
+    margin-bottom: 0;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #feca07;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+#maFormation {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: solid;
+    height: 0;
+    color: #feca07;
+    width: 15%;
+    margin: 0;
+    margin-bottom: 15%;
+}
+
+#Formation {
+    height: 40%;
+    width: 100%;
+}
+
+.principal_formation_container {
+    height: 100%;
+    width: 100%;
+
+}
+
+#contenaire_formation {
+    display: flex;
+    height: 15%;
+    width: 100%;
+
+}
+
+.PF {
+    height: 40px;
+    color: #feca07;
+    margin-top: 1.5%;
+}
+
+#titleFormation {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+div.bordure {
+    border-top: 2px solid #feca07;
+    width: 90%;
+}
+
+.disposition_formation {
+
+}
+
+.disposition_container_0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.date_container_0 {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.img_point {
+    color: #feca07;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+#date_0 {
+    font-size: 0.8em;
+}
+
+.description_container_0 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#descriptionTitle {
+    font-size: 1.5em;
+}
+
+#name_0 {
+    font-size: 1.0em;
+}
+
+#nameDescription_0 {
+
+}
+
+.disposition_container_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.date_container_1 {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.img_point_1 {
+    color: #feca07;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+#date_1 {
+    font-size: 0.8em;
+}
+
+.description_container_1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#descriptionTitle_1 {
+    font-size: 1.2em;
+}
+
+#name_1 {
+
+}
+
+#nameDescription_1 {
+
+}
+
+.date_container_teste {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.disposition_container_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.img_point_2 {
+    color: #feca07;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 8%;
+    margin-right: 8%;
+}
+
+#date_2 {
+    font-size: 0.8em;
+}
+
+.description_container_2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#descriptionTitle {
+    font-size: 1.2em;
+}
+
+#name_2 {
+
+}
+
+#nameDescription_2 {
+
+}
+
+#XP_Pro {
+    height: 40%;
+}
+
+#contenaire_XP_Pro {
+
+}
+
+.contenaire_XP_Pro_title {
+    display: flex;
+    margin-top: 10%;
+}
+
+#titleXpPro {
+    font-size: 2.5em;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.bordure {
+    border-top: 2px solid #feca07;
+    width: 90%;
+}
+
+
+.disposition_container_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.img_point_3 {
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.date_container_3 {
+    width: 50%;
+    display: flex;
+}
+
+#D3 {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.description_container_3 {
+    width: 70%;
+}
+
+#D3titre {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+#D3description {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: -19%; */
+}
+
+.disposition_container_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.img_point_4 {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.date_container_4 {
+    width: 50%;
+    display: flex;
+}
+
+#D4 {
+    display: flex;
+    margin-top: 2%;
+    width: 50%;
+}
+
+.description_container_4 {
+    width: 70%;
+}
+
+#D4titre {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+#D4description {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+}
+
+.disposition_container_5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.img_point_5 {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.date_conatiner_5 {
+    display: flex;
+    width: 50%;
+}
+
+.description_container_E {
+    width: 90%;
+    margin-left: 25%;
+}
+
+.disposition_container_6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.img_point_6 {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.date_container_6 {
+    width: 50%;
+    display: flex;
+}
+
+.description_container_6 {
+    width: 70%;
+}
+
+footer {
+    height: 10%;
+}
+
+.titleFooter {
+    display: flex;
+}
+
+#II {
+    font-size: 2.5em;
+    margin-left: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#IIn {
+
+}
+
+
+@media all and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .nav_vertical {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fontMenu {
+        display: block;
+    }
+
+    .fa-bars {
+        cursor: pointer;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-size: 1.5em;
+    }
+
+    .menu-amberger {
+        display: none;
+    }
+
+    .nav-vertical:hover .menu-amberger {
+        display: flex;
+    }
+
+
+    #corp_page {
+        margin-left: 0;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    #profil {
+        display: flex;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0%;
+        border: solid 0px;
+        justify-content: center;
+    }
+
+    #photo-profil {
+        height: 100px;
+        width: 100px;
+        /* justify-content: center; */
+    }
+
+    #contact {
+        width: 100%;
+    }
+
+    #TContact {
+        background-color: black;
+        width: 100%;
+        height: 45px;
+        color: #feca07;
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 16px;
+        margin-top: 70px;
+    }
+
+    #adresse {
+        display: none;
+    }
+
+    #Téléphone {
+        display: none;
+    }
+
+    #Email {
+        display: none;
+    }
+
+    #PorteFolio {
+        display: none;
+    }
+
+    #Discord {
+        display: none;
+    }
+
+
+    #moi {
+        width: 100%;
+    }
+
+    #Loisir {
+        width: 100%;
+    }
+
+    #Tmoi {
+        background-color: black;
+        height: 45px;
+        margin-top: 70px;
+        color: #feca07;
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    #moi2 {
+        width: 60%;
+        display: none;
+        margin-bottom: 10%;
+    }
+
+    #TLoisir {
+        background-color: black;
+        width: 100%;
+        height: 45px;
+        margin-top: 70px;
+        color: #feca07;
+        font-size: 1.8em;
+        text-align: center;
+        padding-top: 16px;
+    }
+
+    .pLoisir {
+        font-size: 2em;
+        display: none;
+    }
+
+    .fontLoisir {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fontControler {
+        width: 10%;
+        font-size: 2.5em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .fontArt {
+        width: 10%;
+        font-size: 2.5em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .fontCode {
+        width: 10%;
+        font-size: 2.5em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #moi:hover p {
+        display: block;
+    }
+
+    #contact:hover p {
+        display: block;
+    }
+
+    #Loisir:hover p {
+        display: block;
+    }
+
+    #D0titre {
+        font-size: 1.2em;
+    }
+
+    #D0D {
+        font-size: 1.2em;
+    }
+
+    #D0description {
+        font-size: 1.0em;
+    }
+
+    #D1titre {
+        font-size: 2.5em;
+    }
+
+    #D1D {
+        font-size: 1.5em;
+    }
+
+    #D1description {
+        font-size: 1.0em;
+    }
+
+    #D2titre {
+        font-size: 2.5em;
+    }
+
+    #D2D {
+        font-size: 1.5em;
+    }
+
+    #D2description {
+        font-size: 1.0em;
+    }
+
+    #D3titre {
+        font-size: 1.2em;
+    }
+
+    .description_container_3 {
+        width: 75%;
+    }
+
+    #D3description {
+        font-size: 1.0em;
+        width: 90%;
+    }
+
+    #D4titre {
+        font-size: 1.2em;
+    }
+
+    .description_container_4 {
+        width: 75%;
+    }
+
+    #D4description {
+        font-size: 1.0em;
+        width: 90%;
+    }
+
+    #D5titre {
+        font-size: 2.5em;
+    }
+
+    .description_container_E {
+        width: 85%;
+    }
+
+    #D5description {
+        font-size: 1.2em;
+    }
+
+
+    .description_container_6 {
+        width: 75%;
+    }
+
+    #D6description {
+        font-size: 1.2em;
+    }
+
+    #title {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 2.5em;
+    }
+
+    #maformation {
+        margin-left: 0px;
+        font-size: 1.5em;
+    }
+
+    hr {
+        margin-left: 20px;
+    }
+
+    #Tformation {
+        font-size: 1.5em;
+    }
+
+    #TXP_Pro {
+        font-size: 1.5em;
+    }
+
+    #II {
+        font-size: 1.5em;
+    }
+
+    #contenaie_XP_Pro {
+        width: 100%;
+    }
+
+    .date_container_5 {
+        display: flex;
+        width: 50%;
+    }
 }					
