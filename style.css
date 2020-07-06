@@ -17,6 +17,10 @@ body {
     width: 37%;
 }
 
+.fontMenu:hover > .menu-amberger {
+    display: block;
+}
+
 .nav_vertical {
     background-color: #feca07;
     height: 100%;
@@ -24,7 +28,7 @@ body {
     margin-top: 0;
 }
 
-.fontMenu {
+i.fas.fa-bars {
     display: none;
 }
 
@@ -118,6 +122,12 @@ body {
     font-size: 2.5em;
     margin-left: 5%;
     margin-right: 5%;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fontArt {
@@ -125,6 +135,12 @@ body {
     font-size: 2.5em;
     margin-left: 5%;
     margin-right: 5%;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fontCode {
@@ -132,6 +148,12 @@ body {
     font-size: 2.5em;
     margin-left: 5%;
     margin-right: 5%;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #corp_page {
@@ -199,11 +221,8 @@ hr {
     margin-top: 1.5%;
 }
 
-#titleFormation {
-    font-size: 2.5em;
-    margin-bottom: 0;
-    margin-top: 0;
-    margin-left: 50px;
+.titleFormation {
+    margin-left: 25px;
 }
 
 div.bordure {
@@ -360,11 +379,8 @@ div.bordure {
     margin-top: 10%;
 }
 
-#titleXpPro {
-    font-size: 2.5em;
-    margin-left: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
+.titleXpPro {
+    margin-left: 25px;
 }
 
 div.bordure {
@@ -512,11 +528,8 @@ footer {
     display: flex;
 }
 
-#II {
-    font-size: 2.5em;
-    margin-left: 50px;
-    margin-top: 0;
-    margin-bottom: 0;
+.II {
+    margin-left: 25px;
 }
 
 #IIn {
@@ -535,7 +548,7 @@ footer {
         justify-content: center;
     }
 
-    .fontMenu {
+    i.fas.fa-bars {
         display: block;
     }
 
@@ -801,7 +814,7 @@ footer {
     }
 
     #II {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
 
     #contenaie_XP_Pro {
