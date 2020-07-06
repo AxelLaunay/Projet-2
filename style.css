@@ -1,6 +1,6 @@
 
 body {
-    font-family: segoe print;
+    font-family: segoe print, serif;
     margin: 0;
     padding: 0;
 }
@@ -38,8 +38,7 @@ i.fas.fa-bars {
     margin-top: 20%;
     margin-bottom: 20%;
     margin-left: 20%;
-    border: solid 4px;
-    border-color: #daaf12;
+    border: 4px solid #daaf12;
     border-radius: 100%;
 }
 
@@ -178,7 +177,7 @@ i.fas.fa-bars {
     text-transform: capitalize;
     font-weight: bold;
     color: #feca07;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     padding-bottom: 0;
 }
 
@@ -450,7 +449,7 @@ div.bordure {
     display: flex;
 }
 
-#D4 {
+.D4 {
     display: flex;
     margin-top: 2%;
     width: 50%;
@@ -460,12 +459,12 @@ div.bordure {
     width: 70%;
 }
 
-#D4titre {
+.D4titre {
     font-size: 1.5em;
     margin-top: 0;
 }
 
-#D4description {
+.D4description {
     display: flex;
     flex-direction: column;
     margin-right: 0;
@@ -580,10 +579,10 @@ footer {
     #profil {
         display: flex;
         width: 50%;
-        margin-top: 0;
+        margin-top: 20px;
         margin-bottom: 0;
-        margin-left: 0%;
-        border: solid 0px;
+        margin-left: 80px;
+        border: solid 0;
         justify-content: center;
     }
 
@@ -609,23 +608,22 @@ footer {
     }
 
     #adresse {
-        display: none;
+
     }
 
     #Téléphone {
-        display: none;
+
     }
 
     #Email {
-        display: none;
+
     }
 
     #PorteFolio {
-        display: none;
     }
 
     #Discord {
-        display: none;
+
     }
 
 
@@ -635,6 +633,7 @@ footer {
 
     #Loisir {
         width: 100%;
+        margin-bottom: 20px;
     }
 
     #Tmoi {
@@ -645,6 +644,12 @@ footer {
         font-size: 1.8em;
         text-align: center;
         padding-top: 16px;
+    }
+    #moiDescription{
+        margin-left: 5%;
+        font-size: 1.5em;
+        margin-top: 20%;
+        margin-bottom: 0;
     }
 
     #moi2 {
@@ -695,18 +700,46 @@ footer {
         margin-right: 5%;
     }
 
-    #moi:hover p {
-        display: block;
+    .disposition_container_0{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    .description_container_0{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width: 95%;
     }
 
-    #contact:hover p {
-        display: block;
+    .disposition_container_1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10%;
     }
 
-    #Loisir:hover p {
-        display: block;
+    .description_container_1{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width: 95%;
     }
 
+    .disposition_container_2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+
+    .description_container_2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        width: 95%;
+    }
     #D0titre {
         font-size: 1.2em;
     }
@@ -774,7 +807,9 @@ footer {
     }
 
     .description_container_E {
-        width: 85%;
+        width: 50%;
+        margin-top: -220px;
+        margin-left: 45%;
     }
 
     #D5description {
@@ -791,13 +826,13 @@ footer {
     }
 
     #title {
-        margin-left: 0px;
+        margin-left: 0;
         width: 100%;
         font-size: 2.5em;
     }
 
     #maformation {
-        margin-left: 0px;
+        margin-left: 0;
         font-size: 1.5em;
     }
 
