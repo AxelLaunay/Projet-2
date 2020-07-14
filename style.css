@@ -61,7 +61,7 @@ i.fas.fa-bars {
     text-align: center;
 }
 
-.descriptionContct {
+.descriptionContact {
     margin-left: 5%;
     margin-top: 20%;
 }
@@ -807,9 +807,8 @@ footer {
     }
 
     .description_container_E {
-        width: 50%;
-        margin-top: -220px;
-        margin-left: 45%;
+        width: 75%;
+        margin-left: 0;
     }
 
     #D5description {
